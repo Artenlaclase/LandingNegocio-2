@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artenlaclase</title>
+    <link rel="stylesheet" href="css/main.css" class="css">
+    <link rel="stylesheet" href="css/navbar.css" class="css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="./css/experiences.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script defer src="js/app.js"></script>
+
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="60" width="120" src="img/logo-artenlaclase.png" alt="cine">
+            </a>
+            <a>
+                <button class="open-menu" aria-label="Abrir menú">
+                    <img src="img/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="abrir menú">
+                </button>
+            </a>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img/cancel_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="cerrar menú">
+                </button>
+                <li><a href="#inicio" class="selected">Inicio</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding" id="Inicio">
+        <section class="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Aprende como implementar un <br /> Taller de cine escolar </h1>
+                <p class="profile-details">
+                    No te pierdas esta oportunidad de enriquecer la experiencia educativa de tus estudiantes a través
+                    del
+                    cine. ¡Inscríbete ahora y comienza tu viaje cinematográfico en el aula!
+                </p>
+                <button class="profile-btn">
+                    Descargar PDF
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="img/cinescolar-raul-rosales.jpg" alt="cine escolar">
+                <div class="profile-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+
+    <section class="experiences" id="experience">
+
+        <img src="./img/fondo-arriba.png" alt="fondo" class="marco">
+
+
+        <div class="experiences-body">
+            <h2 class="experiences-title">
+                Experiencia
+            </h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2020-2023</div>
+                    <div class="experience-company">Colegio Maria Griselda Valle</div>
+                    <div class="experience-position">Profesor de Artes Visuales y Tecnología</div>
+                    <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+                        ullam atque ex in iure beatae nesciunt iusto culpa ut officiis dolorem illo cupiditate impedit
+                        dolores, placeat delectus eveniet. Facere, unde?</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2017-2019</div>
+                    <div class="experience-company">Instituto La Salle</div>
+                    <div class="experience-position">Profesor de Artes Visuales y Tecnología</div>
+                    <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+                        ullam atque ex in iure beatae nesciunt iusto culpa ut officiis dolorem illo cupiditate impedit
+                        dolores, placeat delectus eveniet. Facere, unde?</div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2015-2016</div>
+                    <div class="experience-company">Colegio Marcelino Champagnat</div>
+                    <div class="experience-position">Profesor de Artes Visuales</div>
+                    <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+                        ullam atque ex in iure beatae nesciunt iusto culpa ut officiis dolorem illo cupiditate impedit
+                        dolores, placeat delectus eveniet. Facere, unde?</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2011-2014</div>
+                    <div class="experience-company">Colegio King School Cordillera</div>
+                    <div class="experience-position">Profesor de Artes Visuales y Tecnología</div>
+                    <div class="experience-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
+                        ullam atque ex in iure beatae nesciunt iusto culpa ut officiis dolorem illo cupiditate impedit
+                        dolores, placeat delectus eveniet. Facere, unde?</div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./img/fondo-abajo.png" alt="fondo" class="marco marco_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+           <Section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text">Navidad, Región de O'Higgins, Chile</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">Artenlaclase@gmail.com</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">
+                        Deje su mensaje y con gusto le responderé
+                    </p>
+                </div>
+
+            </div>
+            <form  class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message"  rows="6"></textarea>
+                </div>
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://cl.linkedin.com/in/raúl-rosales-rebolledo-00302a137">
+                            <img src="img/linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/Artenlaclase">
+                            <img src="img/youtube.png" alt="youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/artenlaclase/">
+                            <img src="img/facebook .png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/artenlaclase/">
+                            <img src="img/instagram.png" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+           </Section>
+ 
+    </div>
+
+    
+    
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
