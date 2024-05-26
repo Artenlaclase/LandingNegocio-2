@@ -11,6 +11,13 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+section[id] {
+    scroll-margin-top: 70px;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--theme-color);

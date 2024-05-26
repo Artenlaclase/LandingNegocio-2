@@ -1,6 +1,7 @@
 .experiences {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .experiences-body {
