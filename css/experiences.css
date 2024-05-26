@@ -6,7 +6,7 @@
 .experiences-body {
     background-color: var(--primary-color);
     color: var(--text-color-inverse);
-top: -5px;
+    top: -5px;
 }
 
 .marco {
@@ -98,13 +98,15 @@ top: -5px;
         margin: 0 auto;
 
     }
-.experience_left {
-    text-align: right ;
-}
+
+    .experience_left {
+        text-align: right;
+    }
+
     .experiences-grid {
         display: grid;
         grid-template-columns: auto 2px auto;
-        gap: 20px 70px; 
+        gap: 20px 70px;
         padding: 70px;
         justify-content: center;
         max-width: 980px;
